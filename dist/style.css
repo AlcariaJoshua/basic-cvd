@@ -367,3 +367,82 @@
         transition: .5s ease;
     }
 }
+
+
+/*----about me ----*/
+
+.aboutMe {
+    width: 100%;
+}
+
+.aboutme__wrapper{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    justify-content: space-evenly;
+
+}
+
+.imgContainer{
+        position: relative;
+}
+
+.imgContainer .ec{
+    position: absolute;
+    top: 0px;
+    opacity: .7;   
+
+}
+.aboutme__text{
+    max-width: 70rem;
+    text-align: justify;
+    margin: 4rem 0;
+    
+}
+
+.aboutme__text h3 {
+    color: #ffa700;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+
+.aboutme__text p {
+    line-height: 1.4;
+    padding: 10px 0;
+}
+
+@media screen and (max-width:500px){
+
+    .aboutme__wrapper{
+        flex-direction: column;
+    }
+
+    .aboutme__wrapper img {
+        width: 30rem;
+    }
+
+    .aboutme__text h3 {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .imgContainer{
+        position: relative;
+    }
+    
+    .imgContainer .ec{
+        position: absolute;
+        top: 0px;
+        opacity: .7;   
+    
+    }
+    .aboutme__text{
+        max-width: 40rem;
+        text-align: justify;
+        margin: 4rem 0;
+        
+    }
+  
+
+}
