@@ -1183,9 +1183,6 @@
 
 @media screen and (max-width:500px){
 
-    .updates h4 {
-        text-align: center;
-    }
 
     .updates .container .updates__wrapper{
         display: flex;
@@ -1195,7 +1192,7 @@
 
     .updates__title h1{
         text-align: center;
-        padding-top: 12%;
+        padding-top: 10%;
     }
     .updates__title p{
         text-align: center;
@@ -1209,6 +1206,8 @@
 
     .updates__item .updates__author ul li{
         display: flex;
+        flex-direction: column;
+        text-align: ce;
         width: 100%;
         padding-right: 0;
     }
@@ -1220,5 +1219,128 @@
     .updates__item .updates__author ul li span{
         font-size: 1.1rem;
     }
+
+}
+
+/*---services----*/
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15rem;
+    width: 100%;
+    place-content: center;
+    place-items: center;
+    margin-top: 8rem;
+}
+
+.services .services__text{
+    max-width: 100%;
+}
+
+.services .services__text h1 {
+    color: #ffa700;
+    font-size: 6rem;
+    font-weight: 800;
+    padding-bottom: 5rem;
+    line-height: 1;
+}
+
+.services .services__text p {
+    padding-bottom: 3rem;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+.services .services__text h4{
+    color: #ffa700;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.services .services__text h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.services .services__text span{
+    font-size: 1rem;
+    line-height: 1;
+    font-style: italic;
+}
+
+.services__img {
+    position: relative;
+}
+
+.services__img .yellow{
+    position: absolute;
+    opacity: .7;
+}
+
+.ServicesPage .container .arrow__down i{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    font-size: 4rem;
+    color: #ffa700;
+    font-weight: 600;
+}
+
+.servicesPage2 {
+    background: #2b2b2b;
+}
+
+.servicesText2 p {
+    color: #ffffff;
+}
+.servicesText2 h5 {
+    color: #ffffff;
+}
+
+.servicesText2 span{
+    color: #ffffff;
+}
+
+@media screen and (max-width:500px){
+    
+
+   
+     .services{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0 5rem;
+        grid-gap: 2rem;
+
+
+    }
+
+     
+    .servicesPage2 .container .services2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 0 5rem;
+        grid-gap: 2rem;
+    }
+
+    .servicesPage2 .container .services2{
+        
+
+    }
+    .ServicesPage .container .services h1{
+        font-size: 4rem;
+    }
+
+    .ServicesPage .container .services .services__img{
+        margin-top: 8rem;
+    }   
+    .servicesPage2 .container .services .services__img2{
+        margin-top: 0rem;
+    }
+    .servicesPage3 .container .services3 {
+        margin-top: 0rem;
+    }
+
 
 }
