@@ -961,3 +961,264 @@
 
 
 }
+
+
+/*------updates-----*/
+
+.updates{
+    background: #ffffff;
+    padding: 5rem 0;
+}
+
+.updates .updates__title{
+    padding-top: 5rem;
+}
+
+
+.updates__wrapper .updates__left .updates__item img{
+    width: 100%;
+}
+.updates .updates__title h1{
+  color: #ffa700;
+  font-size: 5rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+}
+
+.updates .updates__wrapper{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-gap: 5rem;
+}
+
+.updates__item .updates__author ul{
+    display: flex;
+    padding-top: 2rem;
+}
+.updates__item .updates__author ul li{
+    padding-right: 4rem;
+    font-size: 1.5rem;
+    font-weight: 200
+}
+
+.updates__item .updates__author ul li i {
+    margin-right: 1rem;
+}
+
+
+
+.updates__item .updates__text{
+    max-width: 100%;
+    margin-top: 5rem;
+}
+.updates__item .updates__text p{
+    text-align: justify;
+    padding-bottom: 2.5rem;
+    line-height: 2;
+}
+.updates__item .updates__text h4{
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 2.5rem;
+}
+
+.updates__item .updates__text a{
+    color: #ffa700;
+    margin-bottom: 10rem;
+}
+
+/* .updates__wrapper .updates__left hr {
+    margin: 8rem 0;
+    opacity: .3;
+    color: #2b2b2b ;
+} */
+
+.updates .updates__item {
+    padding: 5rem 0;
+}
+.update  .updates__item:last-child{
+    padding-bottom: 0;
+    padding: 5rem 0;
+
+}
+
+
+.updates .updates__item:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.updates .update__categ{
+    padding: 5rem 0;
+    padding-bottom: 10.8rem;
+}
+
+.updates__wrapper .updates__right .updates__categ h4{
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.updates__wrapper .updates__right .updates__categ table {
+    width: 100%;
+    margin-top: 3rem;
+}
+.updates__wrapper .updates__right .updates__categ table tr {
+    height: 5rem;
+}
+
+
+.update  .updates__categ:last-child{
+    padding-bottom: 0;
+    padding: 5rem 0;
+
+}
+.updates .updates__categ:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.update  .recent__post:last-child{
+    padding-bottom: 0;
+    padding: 5rem 0;
+
+}
+.updates .recent__post:not(:last-child){
+    border-bottom: 1px solid black;
+}
+
+.updates .updates__categ {
+    padding-top: 5rem;
+    padding-bottom: 10.8rem;
+}
+
+.recent__post{
+    margin-top: 12rem;
+    padding-bottom: 5rem;
+}
+
+.recent__post h4 {
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 10rem;
+}
+
+.recent__post .recent__post__pic{
+    display: flex;
+}
+
+.recent__post .recent__post__pic .recent__post__text{
+    max-width: 70%;
+    padding-left: 5rem;
+}
+
+.recent__post .recent__post__pic .recent__post__text p {
+    text-align: justify;
+    font-weight: 800;
+    width: 100%;
+    padding-bottom: 4rem;
+
+}
+
+.recent__post .recent__post__pic {
+    margin-bottom: 5rem;
+}
+
+.tags h4 {
+    color: #ffa700;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-bottom: 3rem;
+    padding-top: 7rem;
+}
+
+/* .tags__wrapper {
+    display: flex;
+}
+
+.tags__wrapper .tags__button .bbtn{
+  padding: 2rem 2rem;
+  background: #ffffff;
+  border: 1px solid black;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.tags__wrapper .tags__button .bbtn:hover{
+    color: white;
+    background: #2b2b2b;
+}
+
+.tags__button {
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+.tags__wrapper .tags__button .bbtn a {
+    color: #000000;
+} */
+
+.updates__button{
+    max-width: 60%;
+
+}
+
+.light-color{
+    background: #ffffff;
+    color: #2B2B2B;
+    border: 1px solid #2b2b2b;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+
+}
+
+.light-color:hover{
+    background: #2b2b2b;
+    color: #ffffff;
+    border: 1px solid #2b2b2b;
+}
+
+
+
+@media screen and (max-width:500px){
+
+    .updates h4 {
+        text-align: center;
+    }
+
+    .updates .container .updates__wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 0 5rem;
+    }
+
+    .updates__title h1{
+        text-align: center;
+        padding-top: 12%;
+    }
+    .updates__title p{
+        text-align: center;
+        font-size: 15px;
+    }
+
+    
+    .tags .updates__button{
+        max-width: 100%;
+    }
+
+    .updates__item .updates__author ul li{
+        display: flex;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .updates__item .updates__author ul li i {
+        margin: 0;
+    }
+
+    .updates__item .updates__author ul li span{
+        font-size: 1.1rem;
+    }
+
+}
